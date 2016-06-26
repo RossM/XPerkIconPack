@@ -7,9 +7,16 @@
     <SteamPublishID>0</SteamPublishID>
     <AssemblyName>XPerkIconPack</AssemblyName>
     <RootNamespace>XPerkIconPack</RootNamespace>
+    <ProjectGuid>{17a9c395-5e84-418d-a018-9d948e77b77d}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Content\XPerkIconPack.upk">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
 </Project>
