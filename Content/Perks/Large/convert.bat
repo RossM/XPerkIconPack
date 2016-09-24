@@ -1,1 +1,1 @@
-perl -e "for $file (<*.png>) { `magick convert $file -channel A -fx r -channel RGB -fx 0 -filter cubic -resize 32x32 png32:../$file` }"
+perl -e "for $file (<*.png>) { `magick convert $file -filter quadratic -resize 32x32 -channel A -fx r -channel RGB -fx 0 png32:../$file` }"
